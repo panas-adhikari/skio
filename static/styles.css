@@ -1,0 +1,88 @@
+.tasklist{
+            display: flex;
+            flex-direction: column;
+            border: 2px;
+            border-radius: 5px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    border:2px;
+    border-radius: 3px;
+    background-color: aquamarine;
+    margin:3px;
+    height: 5vh;
+    align-items: center;
+    transition: background-color 0.5 ease;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    border:2px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin:3px;
+    height: 5vh;
+    align-items: center;
+    transition: background-color 0.5 ease;
+    color:white;
+
+}
+.task-items{
+    height: 50%;
+    border: 15px;
+    background-color: rgba(139, 187, 183, 0.25);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 5px;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+}
+.delete{
+    background-color: rgb(226, 30, 79);
+}
+.task-items:hover{
+    background-color: rgba(54, 71, 70, 0.562);
+
+}
+.delete:hover{
+    background-color: rgb(180, 0, 45);
+    color:white;
+    cursor: pointer;
+}
+
+
+form#addNewTask {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 25vw;
+}
+
+form#addNewTask label,
+form#addNewTask input,
+form#addNewTask button {
+    display: block;
+    width: 90%;
+    margin:10px;
+}
+
+form#addNewTask input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form#addNewTask button {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}

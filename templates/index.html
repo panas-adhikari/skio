@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>TO DO APP</title>
+    <link rel="stylesheet" href="static/styles.css" defer/>
+    <script src="static/script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="task-items">ID</div>
+        <div class="task-items" style="width: 45%;">TASK</div>
+        <div class="task-items " style="width: 10%">Status</div>
+        <div class="task-items" style="width: 10%;">Due Date</div>
+    </div>
+    <div class="tasklist" id="tasklist">
+    </div>
+    <div>
+        <form id="addNewTask">
+            <h2 style="text-align: center;">ADD NEW TASK</h2>
+            <fieldset>
+                <label>TASK</label><br>
+                <input type="text" name="task_heading"/> <br>
+                <label for="due_date" >DUE DATE</label><br>
+                <input type="text" name="task_due_date"/><br>
+                <button type="submit">Add Task</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
